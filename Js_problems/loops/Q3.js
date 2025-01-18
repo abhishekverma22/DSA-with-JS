@@ -6,9 +6,12 @@ Example Input: number = 5
 Expected Output: "Odd"
 
 */ 
-let num =3
-if(num%2==0){
-  console.log("Even")
-}if(num%2!==0){
-  console.log("Odd")
+OddEven(3)
+
+function OddEven(){
+  if(num%2==0){
+    console.log("Even")
+  }if(num%2!==0){
+    console.log("Odd")
+  }
 }
